@@ -3,11 +3,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "build-stats": "ANALYZE=true npm run build",
-    "clean": "rimraf .next",
+    "clean": "rimraf .next out",
     "build-prod": "run-s clean build"
   },
   "dependencies": {
