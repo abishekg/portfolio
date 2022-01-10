@@ -7,6 +7,7 @@ class MyDocument extends Document {
   render() {
     // @ts-ignore
     const trackingId: string = firebase.config().config.pass;
+    console.log('>>> trackingId', trackingId);
     return (
       <Html lang="en">
         <Head>
