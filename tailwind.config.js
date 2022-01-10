@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
+      // backgroundColor: {
+      //   'tundora': '#444444'
+      // }
     },
   },
   variants: {
