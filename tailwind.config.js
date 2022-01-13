@@ -11,6 +11,28 @@ module.exports = {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
+      keyframes: {
+        extend: {
+          '0%': {
+            content: '"ReactJS"',
+          },
+          '25%': {
+            content: '"NodeJS"',
+          },
+          '50%': {
+            content: '"Tailwind"',
+          },
+          '75%': {
+            content: '"JavaScript"',
+          },
+          '100%': {
+            content: '"TypeScript"',
+          },
+        },
+      },
+      animation: {
+        extend: 'extend 15s infinite 3s',
+      },
       maxWidth: {
         xs: '20rem',
         sm: '24rem',
