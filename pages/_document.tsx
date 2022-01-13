@@ -14,8 +14,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body className="bg-[#444444]">
-          <Header />
+        <body className="flex justify-center bg-white w-[48rem] dark:bg-[#444444]">
           <Main />
           <NextScript />
         </body>
