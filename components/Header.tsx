@@ -4,7 +4,7 @@ import ThemeIcon from './ThemeIcon';
 
 const Header = () => {
   return (
-    <header className="fixed w-[48rem] h-12 text-right p-4">
+    <header className="fixed w-[48rem] h-12 text-right p-4 mt-0">
       <ThemeIcon />
     </header>
   );

@@ -23,9 +23,12 @@ module.exports = {
         '5xl': '64rem',
         '6xl': '72rem',
       },
-      // backgroundColor: {
-      //   'tundora': '#444444'
-      // }
+      colors: {
+        tundora: '#444444',
+        red: {
+          50: '#FF3232',
+        },
+      },
     },
   },
   variants: {
