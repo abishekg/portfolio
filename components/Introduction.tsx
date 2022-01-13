@@ -14,7 +14,7 @@ const Introduction = () => {
           quas quasi quos ratione repellendus sapiente, tempora tenetur,
           veritatis! Necessitatibus, pariatur.
         </div>
-        <span className="before:animate-extend text-5xl" />
+        <span className="before:animate-extend text-5xl bg-red-50" />
       </div>
     </div>
   );
