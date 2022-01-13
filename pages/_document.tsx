@@ -2,8 +2,6 @@ import React from 'react';
 
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-import Header from '../components/Header';
-
 class MyDocument extends Document {
   render() {
     return (
@@ -14,9 +12,11 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body className="flex justify-center bg-white w-[48rem] dark:bg-[#444444]">
-          <Main />
-          <NextScript />
+        <body className="flex justify-center bg-white dark:bg-[#444444]">
+          <div className="w-[48rem] bg-gray-100 dark:bg-[#4444FF]">
+            <Main />
+            <NextScript />
+          </div>
         </body>
       </Html>
     );
